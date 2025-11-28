@@ -1,0 +1,193 @@
+.header{
+background-color: brown;
+width: 100%;
+height: 55px;
+margin-top: 10px;
+box-sizing: border-box;   /*box-sizing: border-box; - учитывает паддинги и границы в ширине */
+}
+
+
+body{         /*Убираем отступы в body и добавляем цветной фон*/
+   background-color: #f2d3d3;
+    margin: 0;
+    padding: 0;
+}
+
+
+.button-header{
+    margin-top: 15px;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;    /* плавное изменение стилей */
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+ .button-header:hover {        /* наведение на кнопку даёт цвет*/
+    color: rgb(255, 162, 74); 
+  }
+
+
+.Heading{
+    color: #ffb120;
+}
+.Heading2{
+    color: #ff2a2a;
+}
+.He{
+  margin-left: 470px;
+}
+
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    box-sizing: border-box;
+    margin-top: -20px;
+    color: rgb(255, 162, 74); 
+}
+.Information{
+    color: rgb(138, 138, 138);
+}
+
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+}
+.button{
+    text-decoration: none;
+    margin-top: -155px;
+    margin-right: 50px;
+    margin-bottom: 155px;
+    color: white;
+    background-color: brown;
+    border: 10px solid brown;
+    border-radius: 10px;
+    transition: all 0.3s ease;    /* плавное изменение стилей */
+}
+ .button2{
+    text-decoration: none;
+    margin-top: -155px;
+    margin-right: 50px;
+    margin-bottom: 155px;
+    color: white;
+    background-color: brown;
+    border: 10px solid brown;
+    border-radius: 10px;
+    transition: all 0.3s ease;      /* плавное изменение стилей */
+}
+ .button:hover {
+    background-color: rgb(255, 162, 74);     /* изменение фона */
+    border-color: rgb(255, 162, 74);         /* изменение рамки */
+  }
+   .button2:hover {
+    background-color: rgb(255, 162, 74);     /* изменение фона */
+    border-color: rgb(255, 162, 74);         /* изменение рамки */
+  }
+
+
+
+
+
+   /* Простые стили для карточек и фильтра */
+  .filter-btn {
+    margin: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  .cards {
+    display: flex;
+    align-content: flex-start;
+    justify-content:center;
+     flex-wrap: wrap;
+  }
+  .card {
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+  }
+  /* Для скрытых карточек */
+  .hidden {
+    display: none;
+  }
+
+  .icon{
+   height: 200px;
+   width: 200px;
+     border-radius: 4px;
+  }
+    .icon2{
+   text-decoration: none;
+    }
+
+    .det{
+        background-color: brown;
+        width: 150px;
+        color: white;
+        margin-top: 30px;
+    }
+
+    .filter-btn{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    }
+    
+
+    .tex{
+  margin-left: 50px;
+  color: brown;
+}
+    .tex2{
+  margin-left: 960px;
+  color: brown;
+}
+
+
+.photo{
+    width: 450px;
+    height: 400px;
+    margin-left: 950px;
+    margin-top: -190px;
+    border: 4px solid #333;   
+    border-radius: 10px;            
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}
+
+
+.short-line {
+    width: 840px;
+    height: 2px;
+    background: #333;
+    border: none;
+    margin: 20px auto;
+    margin-left: 30px;
+    margin-top: -310px;
+}
+
+
+.sp{
+  color:#333;
+}
+
+
+.logo{
+      width: 130px;
+      height: 72px;
+      margin-left: 100px;
+      margin-top: -20px;
+      position: absolute;
+      border-radius: 50%;        /* делаем круг */
+      object-fit: cover;  
+      border: 3px solid brown;
+      background-color: rgb(255, 162, 74);    
+    }
